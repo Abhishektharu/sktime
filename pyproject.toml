@@ -85,6 +85,8 @@ forecasting = [
 networks = [
     "keras-self-attention>=0.51,<0.52",
     "tensorflow>=2,<=2.14",
+    "torch",
+    "FrEIA",
 ]
 param_est = [
     "seasonal>=0.3.1,<0.4",
